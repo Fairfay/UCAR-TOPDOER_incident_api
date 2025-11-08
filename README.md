@@ -56,6 +56,10 @@ git clone git@github.com:Fairfay/UCAR-TOPDOER_incident_api.git
 
 3. Запустите проект:
 ```bash
+docker compose up --build
+```
+Для прода, заполните .env.prod и запустите:
+```bash
 docker compose -f docker-compose.prod.yml up --build
 ```
 4. Создайте суперпользователя для доступа к API и админке
